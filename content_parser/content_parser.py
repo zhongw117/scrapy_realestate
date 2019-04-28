@@ -38,7 +38,7 @@ def main():
 
         soup_content = BeautifulSoup(fp, 'html.parser')
 
-        agents_list = soup_content.find_all('div', attrs={'class': 'agents-list-wrap'})
+        # agents_list = soup_content.find_all('div', attrs={'class': 'agents-list-wrap'})
 
         # logger.info(agents_list)
 

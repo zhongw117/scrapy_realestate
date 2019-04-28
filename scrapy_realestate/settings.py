@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'scrapy_realestate.spiders'
 #USER_AGENT = 'scrapy_realestate (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -101,7 +101,7 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-
-SPLASH_URL = 'http://192.168.59.103:8050'
+# DEPTH_LIMIT = 2
+SPLASH_URL = 'http://localhost:8050'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
