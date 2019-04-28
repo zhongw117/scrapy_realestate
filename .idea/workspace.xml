@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd34ef1-3045-4b3b-a217-4737f01dd92c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapy_realestate/spiders/sothebysrealty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scrapy_realestate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapy_realestate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_parser/parse_harveykalles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_parser/content_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/content_parser/content_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-100.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-120.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-140.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-160.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-180.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-220.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-40.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-60.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-80.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes-agent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_realestate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_realestate/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_realestate/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_realestate/spiders/quotes_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_realestate/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="732">
+              <caret line="104" column="11" selection-start-line="104" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -42,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/quotes_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -51,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/sothebysrealty.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -66,8 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content_parser/content_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="-5">
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content_parser/parse_harveykalles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -89,6 +81,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,17 +99,7 @@
         <option value="$PROJECT_DIR$/scrapy_realestate/settings.py" />
         <option value="$PROJECT_DIR$/content_parser/content_parser.py" />
         <option value="$PROJECT_DIR$/scrapy_realestate/spiders/sothebysrealty.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/scrapy_realestate.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/content_parser/parse_harveykalles.py" />
       </list>
     </option>
   </component>
@@ -125,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,16 +131,11 @@
               <item name="scrapy_realestate" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy_realestate" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="scrapy_realestate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy_realestate" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_realestate" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +199,8 @@
       <option name="presentableId" value="Default" />
       <updated>1556239918598</updated>
       <workItem from="1556239920041" duration="10448000" />
-      <workItem from="1556383518558" duration="18820000" />
+      <workItem from="1556383518558" duration="19621000" />
+      <workItem from="1556461408514" duration="2972000" />
     </task>
     <task id="LOCAL-00001" summary="requirements">
       <created>1556239950887</created>
@@ -239,16 +223,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556251449965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sothebysrealty">
+      <created>1556412020174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556412020174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29268000" />
+    <option name="totallyTimeSpent" value="33041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,17 +269,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="requirements" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="sothebysrealty" />
+    <option name="LAST_COMMIT_MESSAGE" value="sothebysrealty" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quotes-1.html" />
-    <entry file="file://$PROJECT_DIR$/quotes-agent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1476" column="51" selection-start-line="1476" selection-end-line="1477" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes-agent.html" />
     <entry file="file://$PROJECT_DIR$/scrapy_realestate/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1072" />
@@ -295,8 +282,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_realestate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="732">
+          <caret line="104" column="11" selection-start-line="104" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/quotes_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/sothebysrealty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -312,30 +319,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content_parser/content_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="-5">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_parser/parse_harveykalles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/quotes_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_realestate/spiders/sothebysrealty.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
