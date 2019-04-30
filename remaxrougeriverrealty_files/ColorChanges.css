@@ -1,0 +1,379 @@
+﻿/*START GLOBAL RULES FOR THE COLOR EDITOR SCRIPT*/
+/*[ColorPickerTopBarBackgroundVALUE(edf0f4)]*/
+/*[ColorPickerAccountLinksTextVALUE(960505)]*/
+/*[ColorPickerMenuBackgroundVALUE(b40101)]*/
+/*[ColorPickerMenuTextVALUE(ffffff)]*/
+/*[ColorPickerPrimaryColorVALUE(b40101)]*/
+/*[ColorPickerPrimaryColorDarkerShadeVALUE(8f0000)]*/
+/*[ColorPickerSecondaryColorVALUE(d20000)]*/
+/*[ColorPickerSecondaryColorDarkerShadeVALUE(b40101)]*/
+/*[ColorPickerSocialMediaBarBackgroundVALUE(edf0f4)]*/
+/*[ColorPickerFooterBackgroundVALUE(b40101)]*/
+/*[ColorPickerFooterTextColorVALUE(ffffff)]*/
+/*[ColorPickerWrapperWidthVALUE(1280)]*/
+/*END GLOBAL RULES FOR THE COLOR EDITOR SCRIPT*/
+/*_______DO NOT EDIT ABOVE THIS LINE____________*/
+/*  COLOR CHANGES MAIN COPY */
+
+/*----Wraper Width------*/
+.wrapper {max-width: 1280px;}
+.tmpWrapperWidth {width: 1280px;}
+/*----End Wraper Width------*/
+
+/*-----Top Bar Background------*/
+.top-bar {background: #edf0f4;}
+.tmpTopBarBackground {background: #edf0f4;}
+/*-----End Top Bar Background------*/
+
+/*-----Account Links Text------*/
+.top-contact-links a {color: #960505;}
+.top-login-links a {color: #960505;}
+.tmpAccountLinksText {background: #960505;}
+/*-----End Account Links Text------*/
+
+/*-----Menu Background------*/
+.main-menu {background: rgba(180, 1, 1, 1);}
+#nav li ul {background: rgba(180, 1, 1, .7);}
+#nav li ul li a:hover, #nav li ul:not(:hover) li.active a {background: rgba(180, 1, 1, .5);}
+#nav li ul:before {border-bottom: 5px solid rgba(180, 1, 1, .7);}
+.tmpMenuBackground {background: #b40101;}
+
+.main-nav-con {background: #b40101;}
+.main-nav .mobile-menu-button {background: #b40101;}
+.main-nav .main-menu-container .menu-item .menu-top-label .nav-trigger {background: #b40101;}
+.main-nav .main-menu-container .menu-item .menu-top-label .nav-trigger {border-bottom: 4px solid #b40101;}
+.main-nav .main-menu-container .menu-item .menu-top-label .icon {background: #b40101;}
+.main-nav .main-menu-container .menu-item .menu-content {background: #b40101;}
+.homepage .main-nav .main-menu-container .menu-item .menu-content {background: #b40101;}
+.main-nav .main-menu-container .menu-item .menu-content .menu-sub-label {color: #b40101;}
+.main-nav .main-menu-container .menu-item .menu-content li a:hover {color: #b40101;}
+/*-----End Menu Background------*/
+
+/*-----Menu Text------*/
+#nav li a {color: #ffffff;}
+#nav span:after {border-top-color: #ffffff;}
+.tmpMenuText {background: #ffffff;}
+
+.main-nav .mobile-menu-button {color: #ffffff;}
+.main-nav .main-menu-container .menu-item .menu-top-label .nav-trigger {color: #ffffff;}
+.main-nav .main-menu-container .menu-item:not(.active) .menu-top-label .nav-trigger:hover {border-bottom: 4px solid #ffffff;}
+.main-nav .main-menu-container .menu-item.active .menu-top-label .nav-trigger {border-bottom: 4px solid #ffffff;}
+.main-nav .main-menu-container .menu-item .menu-top-label .icon {color: #ffffff;}
+.main-nav .main-menu-container .menu-item .menu-content li a {color: #ffffff;}
+.main-nav .main-menu-container .menu-item .menu-content li a:hover {background: #ffffff;}
+.main-nav .main-menu-container.item-open-mobile {background: #ffffff;}
+.main-nav .main-menu-container.item-open-mobile .menu-item .menu-content > li {border-bottom: 1px solid #ffffff;}
+/*-----End Menu Text------*/
+
+/*-----Primary Color Elements------*/
+.btn, .form button, a.tab.active {background: #b40101;}
+.property.featured .info {border-bottom: 5px solid #b40101;}
+.property .feature:before {border: 25px solid #b40101;}
+.sign-in-overlay p .user-action {background: #b40101;}
+.crumbs li .crumb {background: #b40101;}
+.crumbs li .crumb:after {border-left: 14px solid #b40101;}
+.sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {color: #b40101;}
+.sy-pager li.sy-active a {background-color: #b40101;}
+.resp-tabs-list li.resp-tab-active, h2.resp-tab-active {background: #b40101;}
+.search-box-header h2 {color: #b40101;}
+.auto-complete-list a:hover, .auto-complete-list a.hover {background: #b40101;}
+.search-all.expend .refine-par-btn, .search-all.expend .more-par-btn {background: #b40101;}
+.search-all.expend .form label span {color: #b40101;}
+.search-all.expend p.note {color: #b40101;}
+.search-all.sidebar .refine-par-btn, .search-all.sidebar .more-par-btn {background: #b40101;}
+.search-all.sidebar .form label span {color: #b40101;}
+.search-all.sidebar p.note {color: #b40101;}
+.mapLBLMulti{background-color: #b40101;}
+.mapLBL {background-color: #b40101;}
+.mapLBL:after {color: #b40101;}
+.content-box h2 {color: #b40101;}
+.cat-con ul li a:hover {background: #b40101;}
+.sim-con ul li:hover a {border-bottom: 1px solid #b40101;}
+.sim-con ul li:hover h5 {color: #b40101;}
+.tmpPrimaryColor {background: #b40101;}
+/*------End Primary Color Elements-----*/
+
+/*-----Primary Color Darker Shade Elements------*/
+.tmpPrimaryColorDarkerShade {background: #8f0000;}
+/*-----End Primary Color Darker Shade Elements------*/
+
+/*------Secondary Color-----*/
+.btn:not(.active):hover, .form button:hover {background: #d20000;}
+.modular h1 {color: #d20000;}
+.crumbs li:not(.current) .crumb:hover {background: #d20000;}
+.crumbs li:not(.current) .crumb:hover:after {border-left-color: #d20000;}
+.pagination .selected {background: #d20000;}
+.pagination .selected {border: 1px solid #d20000;}
+.pagination a.selected:hover {background: #d20000;}
+.content h2 {color: #d20000;}
+.property-title h1 {color: #d20000;}
+.tmpSecondaryColor {background: #d20000;}
+/*-----End Secondary Color------*/
+
+/*------Secondary Color Darker Shade-----*/
+.tmpSecondaryColorDarkerShade {background: #b40101;}
+/*-----Secondary Color Darker Shade------*/
+
+/*------Footer Background-----*/
+.modul-3 {background: #b40101;}
+.tmpFooterBackground {background: #b40101;}
+/*-----End Footer Background------*/
+
+/*------Social Media Bar Background-----*/
+.modul-1 {background: #edf0f4;}
+.tmpSocialMediaBarBackground {background: #edf0f4;}
+/*-----Social Media Bar Footer Background------*/
+
+/*------Footer Text Color-----*/
+.legal-text {color: #ffffff;}
+.copyright-links li {color: #ffffff;}
+.copyright-links li a {color: #ffffff;}
+.copyright-links li a:hover {color: #ffffff;}
+.tmpFooterTextColor {background: #ffffff;}
+/*-----End Footer Text Color------*/
+
+body {font-family: 'Nunito Sans';}
+.form input, .form select, .form textarea {border-color: #e3e3e3;}
+.form input, .form select, .form textarea {font-family: 'Nunito Sans';}
+.form input:focus, .form select:focus, .form textarea:focus {border-color: #cacaca;}
+.form.inline label span.form-error {color: #f37e7e;}
+/* form validation */
+.form input.valid, .form select.valid, .form textarea.valid, .form .has-success {border-color: #cbf37e !important;}
+.form input.error, .form select.error, .form textarea.error, .form .has-error {border-color: #f37e7e !important;}
+/* tabs */
+.tabs {border-bottom: 1px solid #e3e3e3;}
+a.tab {color: #666;}
+a.tab {background: #fff;}
+a.tab {border-right: 1px solid #e3e3e3;}
+a.tab {border-top: 1px solid #e3e3e3;}
+a.tab {text-shadow: none;}
+a.tab:not(.active):hover {background: #f4f4f4;}
+/* buttons */
+.btn, .form button, a.tab.active {font-family: 'museo_sans700';}
+.btn, .form button, a.tab.active {text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);}
+.btn, .form button, a.tab.active {color: #fff;}
+.btn.second {font-family: 'museo_sans700';}
+.btn.second {background: #666;}
+.btn.second {border: none;}
+.btn.second {color: #fff;}
+.btn.second {cursor: pointer;}
+.btn.second:hover {background: #333;}
+.btn.second {border: none;}
+/* button sizes */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* MODULAR LIGHTBOX (LOGIN, REGISTER & FORGOT PASSWORD) */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.modular h2 {color: #666;}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* CONTENT COMMON */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* titles */
+.titles {color: #333;}
+.titles {border-bottom: 1px solid #f4f4f4;}
+@media only screen and (max-width: 64.063em) {
+.titles.large {font-family: 'museo_sans300';}
+.titles.small {font-family: 'museo_sans300';}
+}
+/* property box */
+.property .brokerage {color: #fff;}
+.property .brokerage {font-family: 'Nunito Sans';}
+.property .brokerage {background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);}
+.property .brokerage {background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0)));}
+.property .brokerage {background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);}
+.property .brokerage {background: -o-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);}
+.property .brokerage {background: -ms-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);}
+.property .brokerage {background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);}
+.property .info {background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);}
+.property .info {background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.5)));}
+.property .info {background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);}
+.property .info {background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);}
+.property .info {background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);}
+.property .info {background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);}
+
+.property.viewed .info {border-bottom: 5px solid #333;}
+.property .info .details {float: left;}
+.property .info .details {color: #fff;}
+.property .info .details {font-family: 'museo_sans700';}
+.property .info .details {text-shadow: 1px 1px 2px #000;}
+.property .info .price {color: #fff;}
+.property .info .price {font-family: 'museo_sans700';}
+.property .info .price {text-shadow: 1px 1px 2px #000;}
+.property .info .location {color: #fff;}
+.property .info .location {font-family: 'Nunito Sans';}
+.property .info .location {text-shadow: 1px 1px 2px #000;}
+.community .info .communitiy-name {color: #fff;}
+.community .info .communitiy-name {font-family: 'museo_sans300';}
+.community .info .communitiy-name {text-shadow: 1px 1px 2px #000;}
+.property .feature,.property .view {color: #fff;}
+.property .view:before {border: 25px solid #333;}
+.property .feature:before,.property .view:before {border-bottom-color: transparent;}
+.sign-in-overlay {background: rgba(0, 0, 0, 0.95);}
+.sign-in-overlay p.text {color: #fff;}
+.sign-in-overlay p .user-action {color: #fff;}
+/* crumbs */
+.crumbs li .crumb {color: #fff;}
+.crumbs li .crumb:after {border-top: 14px solid transparent;}
+.crumbs li .crumb:after {border-bottom: 14px solid transparent;}
+.crumbs li .crumb:before {border-top: 14px solid transparent;}
+.crumbs li .crumb:before {border-bottom: 14px solid transparent;}
+.crumbs li .crumb:before {border-left: 14px solid #fff;}
+.crumbs .current .crumb {background: #f4f4f4;}
+.crumbs .current .crumb {color: #333;}
+.crumbs li.current .crumb:after {border-left: 14px solid #f4f4f4;}
+/* pagination */
+.pagination a {background: #fff;}
+.pagination a {color: #333;}
+.pagination a {border: 1px solid #e8e8e8;}
+.pagination a {font-family: 'museo_sans700', Helvetica, 'Helvetica Neue', Arial;}
+.pagination span {color: #666;}
+.pagination .selected {color: #fff;}
+.pagination a:hover {background: #e8e8e8;}
+/* page content styles */
+/* property content */
+.details-table th {color: #333;}
+.details-table tr.even-row {background: #f2f2f2;}
+.details-table tr:hover {background: #d9d9d9;}
+.content h1 {color: #333;}
+.content h3 {color: #333;}
+.content .art-date {color: #868686;}
+/*  From Base.css */
+/* Modul 9 */
+/* tab styles */
+.resp-tabs-list {border-bottom: 1px solid #e3e3e3;}
+.resp-tabs-list li {color: #666;}
+.resp-tabs-list li {background: #fff;}
+.resp-tabs-list li {border-right: 1px solid #e3e3e3;}
+.resp-tabs-list li {border-top: 1px solid #e3e3e3;}
+.resp-tabs-list li {text-shadow: none;}
+.resp-tabs-list li:first-child {border-left: 1px solid #e3e3e3;}
+h2.resp-accordion {color: #666;}
+h2.resp-accordion {background: #fff;}
+h2.resp-accordion {border-right: 1px solid #e3e3e3;}
+h2.resp-accordion {border-left: 1px solid #e3e3e3;}
+h2.resp-accordion {border-top: 1px solid #e3e3e3;}
+h2.resp-accordion {text-shadow: none;}
+.resp-tabs-list li.resp-tab-active, h2.resp-tab-active {text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);}
+.resp-tabs-list li.resp-tab-active, h2.resp-tab-active {color: #fff;}
+.resp-arrow {color: #333;}
+.resp-arrow {font-family: FontAwesome;}
+h2.resp-tab-active span.resp-arrow:after {color: #fff;}
+/*  Moduel 3 */
+/* footer modul 3 */
+.modul-3 {font-family: 'Nunito Sans';}
+/*  Modeul 4 */
+/* footer modul 4 */
+.modul-4 {background: #2c393c;}
+.powered-text {color: #fff;}
+.powered-text a {color: #fff;}
+.powered-text a:hover {color: #fff;}
+/* MOdeul 1 */
+/* Moduel 10 - Content */
+/* property main title */
+/* Header module 1 */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* HEADER */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* main menu */
+#nav {font-family: 'Nunito Sans';}
+/* second level */
+/* slider, titles, headshots and search */
+.tile-box-header h1 {font-family: 'Nunito Sans';}
+.tile-box-header h1 {color: #fff;}
+.tile-box-header h2 {color: #fff;}
+.tile-box-header h2 {font-family: 'Nunito Sans';}
+.search-box-header h1 {color: #fff;}
+.search-box-header h1 {text-shadow: 2px 2px 2px #000;}
+.search-box-header h1 {font-family: 'Nunito Sans';}
+.search-box-header h2 {text-shadow: 1px 1px 1px #000;}
+.search-box-header h2 {font-family: 'Nunito Sans';}
+@media only screen and (max-width: 64.063em) {
+
+.main-logo {float:none;}
+#nav > a {color: #fff;}
+#nav > a {background: #191a1a;}
+#nav > ul {background: #191a1a;}	
+#nav > ul > li > a {color: #ccc;}
+#nav > ul > li > a {border-bottom: 1px solid #232424;}
+/* second level */
+#nav li ul {background: transparent;}
+#nav li ul:before {border-left: none;}
+#nav li ul:before {border-right: none;}
+#nav li ul:before {border-bottom: none;}
+}
+/* Content Module 12 */
+/* search bar / expend */
+.search-all.expend .search-par {background: #4e4e4e;}
+.search-all.expend .search-par a {background: #333;}
+.search-all.expend .search-par a {color: #fff;}
+.auto-complete-list {background: #f4f4f4;}
+.auto-complete-list .section-group {border-bottom: 1px solid #f4f4f4;}
+.auto-complete-list .section-group:hover {background: #f4f4f4;}
+.auto-complete-list .section {border-bottom: 1px solid #f4f4f4;}
+.auto-complete-list a {color: #333;}
+.auto-complete-list a:hover, .auto-complete-list a.hover {color: #fff;}
+.auto-complete-list .section strong {color: #999;}
+.search-all.expend .main-par {background: #f4f4f4;}
+.search-all.expend .refine-par-btn, .search-all.expend .more-par-btn {color: #fff;}
+.search-all.expend .refine-par-btn, .search-all.expend .more-par-btn {font-family: 'museo_sans300';}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* TOP BAR */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* top bar modul 1 */
+.top-bar {font-family: 'Nunito Sans';}
+.top-contact-links a:hover {color: #fff;}
+.top-login-links a:hover {color: #fff;}
+/* Module 13 (search bar refine) */
+.search-all.sidebar .search-par {background: #4e4e4e;}
+.search-all.sidebar .search-par a {background: #333;}
+.search-all.sidebar .search-par a {color: #fff;}
+.search-all.sidebar .main-par {background: #f4f4f4;}
+.search-all.sidebar .refine-par-btn, .search-all.sidebar .more-par-btn {color: #fff;}
+.search-all.sidebar .refine-par-btn, .search-all.sidebar .more-par-btn {font-family: 'museo_sans300';}
+/* Module Map (map search page) */
+#showLoading {background-color:#FFF;}
+#map-listings {border-left: 1px solid #e3e3e3;}
+/*
+//-----------------------------------
+// INFOBOX POPUP
+//-----------------------------------
+*/
+#infobox {border:2px solid black;}
+#infobox {background:#333;}
+#infobox {color:#FFF;}
+#infobox {text-shadow:0 -1px #000000;}
+#infobox {-webkit-box-shadow: 0 0  8px #000;}
+#infobox {box-shadow: 0 0 8px #000;}
+#infobox img.infoboxthumb{border: 1px solid #fff;}
+#infobox img.infoboxthumb{background: #000;}
+#infobox img.infoboxthumb{background-color: #000;}
+.mapLBLMulti{color: #fff;}
+.mapLBL {color: #fff;}
+.mapLBL:after {font-family:'heydings_iconsregular';}
+.mapLBL:after {content:'d';}	
+.mapLBLViewed{color: #000;}
+.mapLBLViewed{background-color: #91c9ff;}
+.mapLBLViewed:after {color: #91c9ff;}
+.mapLBLViewed:after {font-family:'heydings_iconsregular';}
+.mapLBLViewed:after {content:'d';}
+.mapLBLLiked{color: #fff;}
+.mapLBLLiked{background-color: #d71219;}
+.mapLBLLiked:after {color: #d71219;}
+.mapLBLLiked:after {font-family:'heydings_iconsregular';}
+.mapLBLLiked:after {content:'d';}
+
+a.cashback{
+	color: #f2d532;
+	font-weight: bold; 
+	text-shadow: 1px 1px 2px #000;
+	font-family: "museo_sans100";
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 4px 0px 0px;
+	font-size: 12px;
+	padding: 0px;
+	vertical-align: baseline;
+	background: none repeat scroll 0% 0% transparent;
+	text-decoration: none;
+	}	
+

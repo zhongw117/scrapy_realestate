@@ -1,0 +1,111 @@
+﻿/* agents */
+
+
+.agents-single {
+	width: 15%;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	min-height: 580px;
+}
+
+.agents-single .tile {
+	margin: 0 0 25px;
+}
+
+.agents-single .tile img {
+	height: 220px;
+	object-fit: cover;
+}
+
+.agents-single .contact-name {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 5px;
+	color: #dd2023;
+	font-weight: bold;
+}
+
+.agents-single .contact-title {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 0 40px;
+	color: #666;
+	font-weight: normal;
+}
+
+.agents-single .contact-phone {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #333;
+}
+
+.agents-single .contact-email {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #333;
+}
+
+.agents-single .contact-web {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #333;
+}
+
+.agents-single .contact-lang {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 0 40px;
+	color: #dd2023;
+	font-weight: normal;
+}
+
+.form label {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 64.063em) {
+	.agents-single {
+		width: 30%;
+	}
+	.agents-single .contact-email, .agents-single .contact-phone {
+		font-size: 12px;
+	}
+	.agents-single {
+		min-height: 600px;
+	}
+	.agents-single .tile img {
+		height: 280px;
+		object-fit: cover;
+	}
+}
+
+@media only screen and (max-width: 40.063em) { 
+	.agents-single {
+		width: 100%;
+		min-height: unset;
+	}
+	.agents-single .contact-email, .agents-single .contact-phone {
+		font-size: 14px;
+	}
+	.agents-single .tile img {
+		height: 100%;
+	}
+}
